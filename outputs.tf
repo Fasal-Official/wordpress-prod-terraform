@@ -19,3 +19,7 @@ output "database-private-ip" {
 output "website-URL" {
 	value = "http://${aws_instance.webserver.public_ip}"
 }
+
+output "website-Dashboard-URL" {
+	value = "http://${aws_instance.webserver.public_ip}/wp-admin"
+}
