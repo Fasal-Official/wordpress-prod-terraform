@@ -22,6 +22,6 @@ cd /var/www/html/
 wp core download --allow-root
 
 cp -prf wp-config-sample.php wp-config.php
-sed -i -e 's/database_name_here/wordpress/g' -e 's/username_here/wordpress/g' -e 's/password_here/Tqweewq/g' -e 's/localhost/wpdb.wprod.com/g' wp-config.php
+sed -i -e 's/database_name_here/wordpress/g' -e 's/username_here/wordpress/g' -e 's/password_here/Tqweewq/g' -e 's/localhost/wpdb.wpprod.com/g' wp-config.php
 
 wp core install --url=http://${IP} --title=Your_Blog_Title --admin_user=admin --admin_password=password --admin_email=test@fasal.cf --allow-root
