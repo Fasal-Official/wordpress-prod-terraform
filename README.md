@@ -81,4 +81,8 @@ Password: password
 Thanks
 *Fasal Muhammed*
 
+<p align="center">
+<a href="mailto:fasal.official3@gmail.com"><img src="https://img.shields.io/badge/-fasal.official3@gmail.com-3838d2?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/fasal-muhammed"><img src="https://img.shields.io/badge/-Linkedin-blue"/></a>
+
 
