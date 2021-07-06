@@ -421,4 +421,5 @@ resource  "aws_instance"  "webserver" {
         tags = {
                 Name = "${var.project}-webserver"
         }
+        depends_on                    = [ aws_route53_zone.domain , aws_route53_record.hostwp , aws_instance.database ]
 }
